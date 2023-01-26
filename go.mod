@@ -1,4 +1,4 @@
-module github.com/omniscale/imposm3
+module github.com/danilshik/imposm3custom
 
 go 1.12
 
