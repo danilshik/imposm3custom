@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/danilshik/imposm3custom/geom/geos"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/geom/geos"
 )
 
 func TestWkbLineString(t *testing.T) {

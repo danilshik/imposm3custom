@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/omniscale/imposm3/log"
+	"github.com/danilshik/imposm3custom/log"
 )
 
 type TableTx interface {

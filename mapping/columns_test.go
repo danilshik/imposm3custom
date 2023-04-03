@@ -3,10 +3,10 @@ package mapping
 import (
 	"testing"
 
+	"github.com/danilshik/imposm3custom/geom"
+	"github.com/danilshik/imposm3custom/geom/geos"
+	"github.com/danilshik/imposm3custom/mapping/config"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/geom"
-	"github.com/omniscale/imposm3/geom/geos"
-	"github.com/omniscale/imposm3/mapping/config"
 )
 
 func TestBool(t *testing.T) {

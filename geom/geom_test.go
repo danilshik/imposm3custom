@@ -3,8 +3,8 @@ package geom
 import (
 	"testing"
 
+	"github.com/danilshik/imposm3custom/geom/geos"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/geom/geos"
 )
 
 func TestLineString(t *testing.T) {

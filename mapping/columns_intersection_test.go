@@ -4,11 +4,11 @@ import (
 	"math/rand"
 	"testing"
 
+	geomp "github.com/danilshik/imposm3custom/geom"
+	"github.com/danilshik/imposm3custom/geom/geos"
+	"github.com/danilshik/imposm3custom/mapping/config"
+	"github.com/danilshik/imposm3custom/proj"
 	osm "github.com/omniscale/go-osm"
-	geomp "github.com/omniscale/imposm3/geom"
-	"github.com/omniscale/imposm3/geom/geos"
-	"github.com/omniscale/imposm3/mapping/config"
-	"github.com/omniscale/imposm3/proj"
 )
 
 func TestIntersectsFeatureField(t *testing.T) {

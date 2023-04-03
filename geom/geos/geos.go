@@ -17,7 +17,7 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/omniscale/imposm3/log"
+	"github.com/danilshik/imposm3custom/log"
 )
 
 //export goLogString

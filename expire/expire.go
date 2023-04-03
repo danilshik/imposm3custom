@@ -1,8 +1,8 @@
 package expire
 
 import (
+	"github.com/danilshik/imposm3custom/proj"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/proj"
 )
 
 type Expireor interface {

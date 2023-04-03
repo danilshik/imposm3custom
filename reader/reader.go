@@ -9,14 +9,14 @@ import (
 	"strings"
 	"sync"
 
+	osmcache "github.com/danilshik/imposm3custom/cache"
+	"github.com/danilshik/imposm3custom/geom/geos"
+	"github.com/danilshik/imposm3custom/geom/limit"
+	"github.com/danilshik/imposm3custom/log"
+	"github.com/danilshik/imposm3custom/mapping"
+	"github.com/danilshik/imposm3custom/stats"
 	osm "github.com/omniscale/go-osm"
 	"github.com/omniscale/go-osm/parser/pbf"
-	osmcache "github.com/omniscale/imposm3/cache"
-	"github.com/omniscale/imposm3/geom/geos"
-	"github.com/omniscale/imposm3/geom/limit"
-	"github.com/omniscale/imposm3/log"
-	"github.com/omniscale/imposm3/mapping"
-	"github.com/omniscale/imposm3/stats"
 	"github.com/pkg/errors"
 )
 

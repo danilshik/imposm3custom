@@ -3,15 +3,15 @@ package writer
 import (
 	"sync"
 
+	"github.com/danilshik/imposm3custom/cache"
+	"github.com/danilshik/imposm3custom/database"
+	"github.com/danilshik/imposm3custom/expire"
+	geomp "github.com/danilshik/imposm3custom/geom"
+	"github.com/danilshik/imposm3custom/geom/geos"
+	"github.com/danilshik/imposm3custom/log"
+	"github.com/danilshik/imposm3custom/mapping"
+	"github.com/danilshik/imposm3custom/stats"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/cache"
-	"github.com/omniscale/imposm3/database"
-	"github.com/omniscale/imposm3/expire"
-	geomp "github.com/omniscale/imposm3/geom"
-	"github.com/omniscale/imposm3/geom/geos"
-	"github.com/omniscale/imposm3/log"
-	"github.com/omniscale/imposm3/mapping"
-	"github.com/omniscale/imposm3/stats"
 )
 
 type WayWriter struct {

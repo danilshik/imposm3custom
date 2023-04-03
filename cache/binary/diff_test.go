@@ -3,7 +3,7 @@ package binary
 import (
 	"testing"
 
-	"github.com/omniscale/imposm3/element"
+	"github.com/danilshik/imposm3custom/element"
 )
 
 func TestMarshalBunch(t *testing.T) {

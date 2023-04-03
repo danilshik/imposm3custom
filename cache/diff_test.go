@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/danilshik/imposm3custom/element"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/element"
 )
 
 func TestDiffCache(t *testing.T) {

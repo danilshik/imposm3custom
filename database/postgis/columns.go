@@ -3,7 +3,7 @@ package postgis
 import (
 	"fmt"
 
-	"github.com/omniscale/imposm3/log"
+	"github.com/danilshik/imposm3custom/log"
 )
 
 type ColumnType interface {

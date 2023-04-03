@@ -4,13 +4,13 @@ import (
 	"runtime"
 	"sync"
 
+	"github.com/danilshik/imposm3custom/cache"
+	"github.com/danilshik/imposm3custom/database"
+	"github.com/danilshik/imposm3custom/expire"
+	"github.com/danilshik/imposm3custom/geom/limit"
+	"github.com/danilshik/imposm3custom/proj"
+	"github.com/danilshik/imposm3custom/stats"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/cache"
-	"github.com/omniscale/imposm3/database"
-	"github.com/omniscale/imposm3/expire"
-	"github.com/omniscale/imposm3/geom/limit"
-	"github.com/omniscale/imposm3/proj"
-	"github.com/omniscale/imposm3/stats"
 )
 
 type ErrorLevel interface {

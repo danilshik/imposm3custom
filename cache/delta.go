@@ -5,8 +5,8 @@ import (
 	"sort"
 	"sync"
 
+	"github.com/danilshik/imposm3custom/cache/binary"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/cache/binary"
 )
 
 type byID []osm.Node

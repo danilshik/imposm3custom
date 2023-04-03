@@ -1,12 +1,12 @@
 package update
 
 import (
+	"github.com/danilshik/imposm3custom/cache"
+	"github.com/danilshik/imposm3custom/database"
+	"github.com/danilshik/imposm3custom/element"
+	"github.com/danilshik/imposm3custom/expire"
+	"github.com/danilshik/imposm3custom/mapping"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/cache"
-	"github.com/omniscale/imposm3/database"
-	"github.com/omniscale/imposm3/element"
-	"github.com/omniscale/imposm3/expire"
-	"github.com/omniscale/imposm3/mapping"
 )
 
 type Deleter struct {

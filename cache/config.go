@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/omniscale/imposm3/log"
+	"github.com/danilshik/imposm3custom/log"
 )
 
 type cacheOptions struct {

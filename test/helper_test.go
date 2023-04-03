@@ -9,13 +9,13 @@ import (
 
 	"github.com/lib/pq/hstore"
 
+	"github.com/danilshik/imposm3custom/cache"
+	"github.com/danilshik/imposm3custom/config"
+	"github.com/danilshik/imposm3custom/geom/geos"
+	"github.com/danilshik/imposm3custom/import_"
+	"github.com/danilshik/imposm3custom/log"
+	"github.com/danilshik/imposm3custom/update"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/cache"
-	"github.com/omniscale/imposm3/config"
-	"github.com/omniscale/imposm3/geom/geos"
-	"github.com/omniscale/imposm3/import_"
-	"github.com/omniscale/imposm3/log"
-	"github.com/omniscale/imposm3/update"
 )
 
 type importConfig struct {

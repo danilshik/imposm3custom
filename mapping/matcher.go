@@ -1,8 +1,8 @@
 package mapping
 
 import (
+	"github.com/danilshik/imposm3custom/geom"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/geom"
 )
 
 func (m *Mapping) pointMatcher() (NodeMatcher, error) {

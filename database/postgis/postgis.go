@@ -8,13 +8,13 @@ import (
 	"sync"
 	"sync/atomic"
 
+	"github.com/danilshik/imposm3custom/database"
+	"github.com/danilshik/imposm3custom/geom"
+	"github.com/danilshik/imposm3custom/log"
+	"github.com/danilshik/imposm3custom/mapping"
+	"github.com/danilshik/imposm3custom/mapping/config"
 	pq "github.com/lib/pq"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/database"
-	"github.com/omniscale/imposm3/geom"
-	"github.com/omniscale/imposm3/log"
-	"github.com/omniscale/imposm3/mapping"
-	"github.com/omniscale/imposm3/mapping/config"
 	"github.com/pkg/errors"
 )
 

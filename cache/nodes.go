@@ -1,9 +1,9 @@
 package cache
 
 import (
+	"github.com/danilshik/imposm3custom/cache/binary"
 	"github.com/jmhodges/levigo"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/cache/binary"
 )
 
 type NodesCache struct {

@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/omniscale/imposm3/geom/geos"
+	"github.com/danilshik/imposm3custom/geom/geos"
 )
 
 func TestRouteRelation(t *testing.T) {

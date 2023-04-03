@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/omniscale/imposm3/log"
+	"github.com/danilshik/imposm3custom/log"
 )
 
 // disableDefaultSsl adds sslmode=disable to params

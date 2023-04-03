@@ -43,9 +43,9 @@ There is a `mailing list at Google Groups <http://groups.google.com/group/imposm
 Development
 -----------
 
-The source code is available at: https://github.com/omniscale/imposm3/
+The source code is available at: https://github.com/danilshik/imposm3custom/
 
-You can report any issues at: https://github.com/omniscale/imposm3/issues
+You can report any issues at: https://github.com/danilshik/imposm3custom/issues
 
 Contents
 --------

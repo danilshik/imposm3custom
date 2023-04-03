@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/omniscale/imposm3/mapping"
-	"github.com/omniscale/imposm3/mapping/config"
+	"github.com/danilshik/imposm3custom/mapping"
+	"github.com/danilshik/imposm3custom/mapping/config"
 	"github.com/pkg/errors"
 )
 

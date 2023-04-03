@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/danilshik/imposm3custom/log"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/log"
 
-	"github.com/omniscale/imposm3/geom"
-	"github.com/omniscale/imposm3/mapping/config"
+	"github.com/danilshik/imposm3custom/geom"
+	"github.com/danilshik/imposm3custom/mapping/config"
 	"github.com/pkg/errors"
 )
 

@@ -8,13 +8,13 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/danilshik/imposm3custom/cache"
+	"github.com/danilshik/imposm3custom/config"
+	"github.com/danilshik/imposm3custom/expire"
+	"github.com/danilshik/imposm3custom/geom/limit"
+	"github.com/danilshik/imposm3custom/log"
 	"github.com/omniscale/go-osm/replication/diff"
 	"github.com/omniscale/go-osm/state"
-	"github.com/omniscale/imposm3/cache"
-	"github.com/omniscale/imposm3/config"
-	"github.com/omniscale/imposm3/expire"
-	"github.com/omniscale/imposm3/geom/limit"
-	"github.com/omniscale/imposm3/log"
 )
 
 func Run(baseOpts config.Base) {

@@ -4,8 +4,8 @@ import (
 	"path"
 	"strings"
 
+	"github.com/danilshik/imposm3custom/mapping/config"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/mapping/config"
 )
 
 type TagFilterer interface {

@@ -9,10 +9,10 @@ import (
 
 	"github.com/jmhodges/levigo"
 
+	"github.com/danilshik/imposm3custom/cache/binary"
+	"github.com/danilshik/imposm3custom/element"
+	"github.com/danilshik/imposm3custom/log"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/cache/binary"
-	"github.com/omniscale/imposm3/element"
-	"github.com/omniscale/imposm3/log"
 )
 
 type DiffCache struct {

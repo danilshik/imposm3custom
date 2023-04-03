@@ -4,10 +4,10 @@ import (
 	"errors"
 	"strings"
 
+	"github.com/danilshik/imposm3custom/geom"
+	"github.com/danilshik/imposm3custom/mapping"
+	"github.com/danilshik/imposm3custom/mapping/config"
 	osm "github.com/omniscale/go-osm"
-	"github.com/omniscale/imposm3/geom"
-	"github.com/omniscale/imposm3/mapping"
-	"github.com/omniscale/imposm3/mapping/config"
 )
 
 type Config struct {
